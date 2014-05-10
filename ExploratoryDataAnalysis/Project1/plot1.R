@@ -1,4 +1,4 @@
-# Here I followed a suggestion on the suggestion forum which led me to some
+# Here I followed a suggestion on the discussion forum which led me to some
 # learging of the sqldf package.
 
 library(sqldf)
