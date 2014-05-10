@@ -13,7 +13,7 @@ myData$DateTime=paste(myData$Date,myData$Time,sep=" ")
 
 myData$DateTime=as.POSIXct(myData$DateTime,format="%d/%m/%Y %H:%M:%S")
 
-png(file="plot4.png", width=480, height=480)
+# png(file="plot4.png", width=480, height=480)
 
 par(mfrow=c(2,2))
 
@@ -40,4 +40,4 @@ plot(myData$DateTime,myData$Global_reactive_power,
 
 par(mfrow=c(1,1))
 
-dev.off()
+# dev.off()

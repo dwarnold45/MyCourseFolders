@@ -7,7 +7,7 @@ mySql <- "SELECT * from file WHERE Date='1/2/2007' OR Date='2/2/2007'"
 myData <- read.csv.sql(myfile,sql=mySql,sep=";")
 str(myData)
 
-png(file="plot1.png", width=480, height=480)
+# png(file="plot1.png", width=480, height=480)
 
 hist(myData$Global_active_power,
      xlab="Global Active Power (kilowatts)",
@@ -15,4 +15,4 @@ hist(myData$Global_active_power,
      main="Global Active Power",
      col="red")
 
-dev.off()
+# dev.off()
